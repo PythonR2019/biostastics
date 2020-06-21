@@ -38,6 +38,6 @@ for(m in 1:50){
   result[[m]][[2]] <- cm
 }
 
-
+save(result,file="cla_RF.Rdata")
 
 
